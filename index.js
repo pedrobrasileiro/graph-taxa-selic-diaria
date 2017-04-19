@@ -9,9 +9,10 @@
   // console.log(charsetMatch);
   //
   var fs                = require('fs');
+  var config            = require('./config.json');
   var LineByLineReader  = require('line-by-line');
   var removeDiacritics  = require('diacritics').remove;
-  var plotly            = require('plotly')("pedrobrasileiro", "Msjzh3KMcnCfSRt1m09s");
+  var plotly            = require('plotly')(config.plotly.username, config.plotly.apiKey);
   var moment            = require('moment');
   var config            = require('./config.json');
 
