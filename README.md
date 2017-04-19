@@ -6,8 +6,13 @@ Geração de gráfico da Taxa SELIC Diária
 - Rename config-default.json to config.json
 - Set username and apiKey
 
+- Execute in project dir
+``
+  $ npm install
+``
+
 - Generate file in http://www.bcb.gov.br/htms/selic/selicdiarios.asp
-- Execute with
+- Execute 
 ``
   $ node . path_file_generated
 ``
